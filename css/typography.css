@@ -8,7 +8,6 @@
 html {
   /* font: normal 100%/1.5 Georgia,serif; 16px/24px */
   font-family: 'Roboto', sans-serif;
-  font: normal 100%;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -92,6 +91,7 @@ a:link {
 	text-decoration: none;
 	border-bottom: 0.1em solid rgba(204,102,0,1);
 	transition: all 200ms linear;
+  font-weight: 300;
 }
 
 a:visited {
@@ -133,7 +133,7 @@ hr {
 
 mark {
 
-      background-color: #ff9900;
+      background-color: #0066ff;
 }
 
 th {
