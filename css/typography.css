@@ -132,12 +132,19 @@ hr {
 
 mark {
 
-      background-color: #0066ff;
+      background-color: #ffff00;
 }
 
 th {
 
   color: #ff9900;
+}
+
+.box {
+
+	background-color: #cc6600;
+	padding: 5%;
+	color: #ffffff;
 }
 
 
