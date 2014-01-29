@@ -15,7 +15,7 @@ html {
 }
 
 #tfheader {
-    background-color: #FFCCCC;
+    /*background-color: #FFCCCC;*/
   }
 
   #tfnewsearch {
@@ -27,7 +27,10 @@ html {
     margin: 0;
     padding: 5px 15px;
     font-size:14px;
-    /*border:1px solid #663333; border-right:0px;*/
+    /*border:1px solid #663333;
+    border-right:0px;*/
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
 
   }
 
@@ -45,6 +48,8 @@ html {
     background: #993333;
     background: -webkit-gradient(linear, left top, left bottom, from(#FF3333), to(#993333));
     background: -moz-linear-gradient(top,  #FF3333,  #993333);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
   }
 
   .tfbutton:hover {
