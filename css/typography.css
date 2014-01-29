@@ -2,9 +2,10 @@
 /*
   Colour Palette
   - Dark Orange: #cc6699 - rgb(204, 102, 0)
-  - Yellow: #ffff00 - rgb(255, 255, 0)
+  - Yellow: #ffcc00 - rgb(255, 255, 0)
   - Red: #990000 - rgb(153, 0, 0);
-  - Light Orange: #ff9900 - rgd(255, 153, 0);
+  - Light Orange: #ff9900 - rgb(255, 153, 0);
+  - White: #ffffff - rgb(255, 255, 255);
  */
 
 html {
@@ -134,7 +135,7 @@ hr {
 
 mark {
 
-      background-color: #ffff00;
+      background-color: #ffcc00;
 }
 
 th {
