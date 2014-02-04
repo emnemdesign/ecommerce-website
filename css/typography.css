@@ -124,8 +124,9 @@ ul li {
 ul li:before {
 
 	content: "•";
-	color: #999;
+  color: #990000;
   position: absolute;
+  margin-left: -3%;
 }
 
 hr {
