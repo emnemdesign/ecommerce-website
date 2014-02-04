@@ -1,1 +1,21 @@
 @chartset "utf-8";
+
+ul li:before {
+
+content: none;
+}
+
+ul {
+
+display: block;
+}
+
+.nav {
+
+  background-color: #000;
+}
+
+p {
+  text-align: center;
+  font-size: 0.65em;
+}
