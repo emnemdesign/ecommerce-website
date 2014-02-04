@@ -26,6 +26,8 @@
 nav .selected {
 
   background-color: #cc6699;
+  color: #fff;
+  padding: 1%;
 }
 
 ul li:before {
