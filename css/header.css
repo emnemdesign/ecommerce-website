@@ -1,1 +1,26 @@
 @chartset "utf-8";
+
+.logo {
+
+  width : 419px;
+  position: absolute;
+  margin: -17% 0% 0% -3%;
+}
+
+.bar {
+
+  padding-top: 170px;
+
+  height: 68px;
+
+  margin-top: 20%;
+  background-color: #000000;
+}
+
+.nav {
+	margin-left: 15%;
+	display: block;
+	margin: -20% 0% 0% 85%;
+	line-height: 3em;
+	display: inherit;
+}
