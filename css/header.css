@@ -3,7 +3,7 @@
 .logo {
 
   margin: auto;
-  margin-top: -40%;
+  margin-top: -44%;
 }
 
 .bar {
@@ -17,12 +17,21 @@
 
   background-color: #000;
   padding: 2.5%;
+
 }
 
 .nav {
 
 	line-height: 3em;
+  background-color: #000;
+  margin-right: 79%;
 
+}
+
+.nav-top ul {
+
+  padding: 0;
+  line-height: 2em;
 }
 
 nav .selected {
@@ -75,9 +84,6 @@ ul li:before {
     padding: 15px 0px 0px 109px;
   }
 
-  .logo {
-
-  }
 }
 
 .unit-s-1 {
@@ -87,13 +93,6 @@ ul li:before {
 
 #tfheader {
 background-color: #000;
-}
-
-.nav-top ul {
-
-  margin-left: -7%;
-  line-height: 2em;
-  margin-top: 10%;
 }
 
 .img-flex {
