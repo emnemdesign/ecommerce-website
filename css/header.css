@@ -2,8 +2,7 @@
 
 .logo {
 
-  position: absolute;
-  margin: -41% 0% 0% -7%;
+  margin: auto;
 }
 
 .bar {
@@ -59,7 +58,7 @@ background-color: #000;
 
 .nav-top ul {
 
-  margin-left: -5%;
+  margin-left: -7%;
   line-height: 2em;
   margin-top: 10%;
 }
