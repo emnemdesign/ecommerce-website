@@ -2,9 +2,9 @@
 
 .logo {
 
-  width: 219px;
+  width: 399px;
   position: absolute;
-  margin: -74% 0% 0% -13%;
+  margin: -43% 0% 0% -6%;
 }
 
 .bar {
@@ -15,11 +15,8 @@
 }
 
 .nav {
-	margin-left: 15%;
-	display: block;
-	margin: -17% 0% 0% 88%;
 	line-height: 3em;
-	display: inherit;
+
 }
 
 nav .selected {
@@ -32,4 +29,33 @@ nav .selected {
 ul li:before {
 
   content: none;
+}
+
+#search-field {
+  padding: 15px 0px 0px 75px;
+  float: center;
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  #search-field {
+    padding: 15px 0px 0px 109px;
+  }
+
+  .logo {
+    margin: -33% 0% 0% -1%;
+  }
+}
+
+
+#tfheader {
+background-color: #000;
+}
+
+.nav-top ul {
+
+  margin-left: -5%;
+  line-height: 2em;
+  margin-top: 10%;
 }
