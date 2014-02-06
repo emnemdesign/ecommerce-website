@@ -12,10 +12,36 @@ display: block;
 
 .nav {
 
+	padding: 0.5em 0;
+
   background-color: #000;
 }
 
 p {
   text-align: center;
   font-size: 0.65em;
+  color: #fff;
+  margin: 0;
 }
+
+.nav-btm li {
+
+	display: inline-block;
+
+
+}
+
+.nav-btm ul {
+
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1%;
+	text-align: center;
+
+}
+
+.nav-btm img {
+
+	width: 1em;
+}
+
