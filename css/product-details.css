@@ -3,6 +3,19 @@ html {
 	background-position: center;
 }
 
+.header {
+  background-color: #990000;
+  color: #ffffff;
+  padding-left: .5%;
+}
+
+.product {
+	background-color: #cc6633;
+	border-radius: 25px;
+	margin-bottom: 5%;
+}
+
+
 .btn {
   margin-left: 75%;
   padding: 10%;
@@ -33,16 +46,4 @@ html {
 .wishlist {
 	margin-left: 67%;
 }
-
-h1 {
-  background-color: #990000;
-  color: #ffffff;
-}
-
-.product {
-	background-color: #cc6633;
-	border-radius: 25px;
-	margin-bottom: 5%;
-}
-
 
