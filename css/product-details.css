@@ -12,6 +12,19 @@ html {
   margin-left: 71%;
 }
 
+@media only screen and (min-width: 45em) {
+
+.btn {
+	margin-left: 68%;
+}
+
+.wishlist {
+	margin-left: 63%;
+}
+
+
+}
+
 h1 {
   background-color: #990000;
   color: #ffffff;
