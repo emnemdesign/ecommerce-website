@@ -22,7 +22,16 @@ html {
 	margin-left: 63%;
 }
 
+}
 
+@media only screen and (min-width: 80em) {
+
+.btn {
+	margin-left: 70%;
+}
+
+.wishlist {
+	margin-left: 67%;
 }
 
 h1 {
