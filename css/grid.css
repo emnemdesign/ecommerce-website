@@ -69,6 +69,55 @@
 }
 }
 
+@media only screen and (min-width: 56em) {
+
+	.info {
+		margin-top: -65%;
+}
+}
+
+@media only screen and (min-width: 57.5em) {
+
+	.info {
+		margin-top: -63%;
+}
+}
+
+@media only screen and (min-width: 60em) {
+
+	.info {
+		margin-top: -62%;
+}
+}
+
+@media only screen and (min-width: 64.5em) {
+
+	.info {
+		margin-top: -60%;
+}
+}
+
+@media only screen and (min-width: 68em) {
+
+	.info {
+		margin-top: -59%;
+}
+}
+
+@media only screen and (min-width: 70em) {
+
+	.info {
+		margin-top: -58%;
+}
+}
+
+@media only screen and (min-width: 74em) {
+
+	.info {
+		margin-top: -56%;
+}
+}
+
 @media only screen and (min-width: 50em) {
 
 	.unit-l-1-3 {
