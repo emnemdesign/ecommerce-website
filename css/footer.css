@@ -1,5 +1,10 @@
 @chartset "utf-8";
 
+html {
+	background-image: url("../img/washi.png");
+	background-position: center;
+}
+
 ul li:before {
 
 content: none;
@@ -45,3 +50,11 @@ p {
 	width: 1em;
 }
 
+.copyright {
+	margin-bottom: 1%;
+}
+
+.icons li {
+	padding: 0.5%;
+
+}

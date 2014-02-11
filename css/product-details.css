@@ -1,0 +1,23 @@
+html {
+	background-image: url("../img/washi.png");
+	background-position: center;
+}
+
+.btn {
+  margin-left: 75%;
+  padding: 10%;
+}
+
+.wishlist {
+  margin-left: 71%;
+}
+
+h1 {
+  background-color: #990000;
+  color: #ffffff;
+}
+
+.product {
+	background-color: #fff;
+	border-radius: 10px;
+}
