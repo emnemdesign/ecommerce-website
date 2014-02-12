@@ -90,10 +90,12 @@ p {
 	.nav {
 	padding-bottom: 6%;
 }
+}
 
 @media only screen and (min-width: 50em) {
 	.nav {
 	padding-bottom: 5%;
+}
 }
 
 @media only screen and (min-width: 59em) {
@@ -106,10 +108,12 @@ p {
 	.nav {
 	padding-bottom: 4.25%;
 }
+}
 
 @media only screen and (min-width: 81em) {
 	.nav {
 	padding-bottom: 4%;
+}
 }
 
 @media only screen and (min-width: 90em) {
