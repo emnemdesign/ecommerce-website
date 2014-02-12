@@ -275,6 +275,10 @@ padding-bottom: 20%;
   padding-bottom: 17%;
 }
 
+ul {
+margin-left: 61%;
+}
+
 }
 
 @media only screen and (min-width: 53em) {
@@ -323,6 +327,10 @@ padding-bottom: 20%;
   margin-top: -5%;
 }
 
+ul {
+  margin-left: 62%;
+}
+
 }
 
 @media only screen and (min-width: 57em) {
@@ -336,10 +344,6 @@ padding-bottom: 20%;
   margin-top: -6%;
 }
 
-ul {
-  margin-left: 62%;
-}
-
 }
 
 @media only screen and (min-width: 58em) {
@@ -350,7 +354,11 @@ ul {
 
 .logo {
 
-  margin-top: -4%;
+  margin-top: -6%;
+}
+
+ul {
+  margin-left: 63%;
 }
 
 }
@@ -363,7 +371,7 @@ ul {
 
 .logo {
 
-  margin-top: -3%;
+  margin-top: -5%;
 }
 
 }
@@ -383,7 +391,28 @@ ul {
   padding-bottom: 17%;
 }
 
+ul {
+  margin-left: 64%;
 }
+
+}
+
+@media only screen and (min-width: 61em) {
+
+ul {
+  margin-left: 65%;
+}
+
+}
+
+@media only screen and (min-width: 62em) {
+
+ul {
+  margin-left: 66%;
+}
+
+}
+
 
 @media only screen and (min-width: 64em) {
 
@@ -396,11 +425,138 @@ ul {
   padding-bottom: 16%;
 }
 
+}
+
+@media only screen and (min-width: 65em) {
+
 ul {
-  margin-left: 66%;
+  margin-left: 67%;
 }
 
 }
 
+@media only screen and (min-width: 67em) {
+
+ul {
+  margin-left: 68%;
+}
+
+}
+
+@media only screen and (min-width: 70em) {
+
+ul {
+  margin-left: 69%;
+}
+
+}
+
+@media only screen and (min-width: 72em) {
+
+ul {
+  margin-left: 70%;
+}
+
+}
+
+@media only screen and (min-width: 73em) {
+
+.img-flex {
+  width: 38%;
+}
+
+}
+
+@media only screen and (min-width: 75em) {
+
+ul {
+  margin-left: 71%;
+}
+
+}
+
+@media only screen and (min-width: 76em) {
+
+.img-flex {
+  width: 37%;
+}
+
+.logo {
+
+  margin-top: -5%;
+}
+
+ul {
+  margin-left: 72%;
+}
+}
+
+@media only screen and (min-width: 77em) {
+
+.img-flex {
+  width: 36%;
+}
+
+.logo {
+
+  margin-top: -4.5%;
+}
+
+}
+
+@media only screen and (min-width: 78em) {
+
+.img-flex {
+  width: 35%;
+}
+
+.logo {
+
+  margin-top: -4%;
+}
+
+}
+
+@media only screen and (min-width: 79em) {
+
+.img-flex {
+  width: 34%;
+}
+
+.logo {
+
+  margin-top: -3.5%;
+}
+
+ul {
+  margin-left: 73%;
+}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+.img-flex {
+  width: 33%;
+}
+
+
+.logo {
+
+  margin-top: -3%;
+}
+
+ul {
+  margin-left: 74%;
+}
+
+}
+
+@media only screen and (min-width: 88em) {
+
+ul {
+  margin-left: 75%;
+}
+}
 
 
