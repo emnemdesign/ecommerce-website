@@ -86,6 +86,32 @@ p {
 }
 }
 
+@media only screen and (min-width: 43em) {
+	.nav {
+	padding-bottom: 6%;
+}
+
+@media only screen and (min-width: 50em) {
+	.nav {
+	padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 59em) {
+	.nav {
+	padding-bottom: 4.5%;
+}
+}
+
+@media only screen and (min-width: 68em) {
+	.nav {
+	padding-bottom: 4.25%;
+}
+
+@media only screen and (min-width: 81em) {
+	.nav {
+	padding-bottom: 4%;
+}
+
 @media only screen and (min-width: 90em) {
 
 .icons {
@@ -94,3 +120,5 @@ p {
 	padding-right: 2%;
 }
 }
+
+
