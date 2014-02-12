@@ -1,4 +1,4 @@
-@chartset "utf-8";
+@charset "utf-8";
 
 html {
 	background-image: url("../img/washi.png");
@@ -39,7 +39,7 @@ p {
 .nav-btm ul {
 
 	margin: 0;
-	padding: 0;
+	padding: 1%;
 	padding-bottom: 1%;
 	text-align: center;
 
@@ -54,21 +54,48 @@ p {
 	margin-bottom: 1%;
 }
 
+.icons {
+	padding-left: 0.5em;
+}
+
 .icons li {
 	padding: 0.25%;
 
 }
 
-@media only screen and(min-width: 30em) {
+@media only screen and (min-width: 30em) {
 
-.icons li{
+.icons li {
 	text-align: right;
 
 	padding-right: 2%;
 }
 }
 
-@media only screen and(min-width: 90em) {
+@media only screen and (min-width: 36em) {
+
+.nav-btm ul {
+	float:left;
+	padding-left: 3%;
+}
+
+.icons {
+	padding-left: 0.75em;
+}
+
+.copyright {
+	float: right;
+	margin-top: 1.5%;
+	padding-right: 3%;
+
+}
+
+.nav {
+	padding-bottom: 7%;
+}
+}
+
+@media only screen and (min-width: 90em) {
 
 .icons {
 	text-align: right;
