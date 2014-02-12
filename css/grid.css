@@ -149,5 +149,13 @@
 	}
 }
 
+@media only screen and (min-width: 91em) {
+
+p {
+	padding: 1%;
+}
+
+}
+
 
 
