@@ -157,5 +157,13 @@ p {
 
 }
 
+@media only screen and (min-width: 92em) {
+
+p {
+	padding: 2%;
+}
+
+}
+
 
 
