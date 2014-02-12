@@ -201,11 +201,6 @@ background-color: #000;
 
 @media only screen and (min-width: 39em) {
 
-.logo {
-  margin-bottom: -8%;
-
-}
-
 .img-flex {
   width: 55%;
 }
@@ -243,19 +238,83 @@ background-color: #000;
 .img-flex {
   width: 48%;
 }
+
+#tfheader {
+
+  margin-bottom: 2%;
+  margin-right: 2%;
+
+}
+
+ul {
+  margin-left: 59%;
+}
+
+.nav li {
+  padding: 1%;
+}
+
+.logo {
+  float: left;
+  margin-top: -8%;
+  margin-left: -5%;
+}
+
+.bar {
+padding-bottom: 20%;
+}
 }
 
 @media only screen and (min-width: 51em) {
 
 .img-flex {
-  width: 50%;
+  width: 47%;
+}
+
+.bar {
+  padding-bottom: 19%;
+}
+
+.logo {
+  margin-top: -7%;
 }
 }
 
 @media only screen and (min-width: 53em) {
 
 .img-flex {
-  width: 51%;
+  width: 46%;
+}
+
+.logo {
+  margin-top: -6.5%;
 }
 }
+
+@media only screen and (min-width: 54em) {
+
+.img-flex {
+  width: 45%;
+}
+
+.logo {
+  margin-top: -6%;
+}
+}
+
+@media only screen and (min-width: 55em) {
+
+.img-flex {
+  width: 44%;
+}
+}
+
+@media only screen and (min-width: 56em) {
+
+.img-flex {
+  width: 43%;
+}
+}
+
+
 
