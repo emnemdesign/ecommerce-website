@@ -256,7 +256,7 @@ ul {
 
 .logo {
   float: left;
-  margin-top: -8%;
+  margin-top: -7%;
   margin-left: -5%;
 }
 
@@ -268,22 +268,19 @@ padding-bottom: 20%;
 @media only screen and (min-width: 51em) {
 
 .img-flex {
-  width: 47%;
+  width: 44%;
 }
 
 .bar {
-  padding-bottom: 19%;
+  padding-bottom: 17%;
 }
 
-.logo {
-  margin-top: -7%;
-}
 }
 
 @media only screen and (min-width: 53em) {
 
 .img-flex {
-  width: 46%;
+  width: 43%;
 }
 
 .logo {
@@ -294,7 +291,7 @@ padding-bottom: 20%;
 @media only screen and (min-width: 54em) {
 
 .img-flex {
-  width: 45%;
+  width: 42%;
 }
 
 .logo {
@@ -305,15 +302,104 @@ padding-bottom: 20%;
 @media only screen and (min-width: 55em) {
 
 .img-flex {
-  width: 44%;
+  width: 43%;
 }
+
+.logo {
+
+  margin-top: -6.5%;
+}
+
 }
 
 @media only screen and (min-width: 56em) {
 
 .img-flex {
-  width: 43%;
+  width: 40.5%;
 }
+
+.logo {
+
+  margin-top: -5%;
+}
+
+}
+
+@media only screen and (min-width: 57em) {
+
+.img-flex {
+  width: 42%;
+}
+
+.logo {
+
+  margin-top: -6%;
+}
+
+ul {
+  margin-left: 62%;
+}
+
+}
+
+@media only screen and (min-width: 58em) {
+
+.img-flex {
+  width: 41%;
+}
+
+.logo {
+
+  margin-top: -4%;
+}
+
+}
+
+@media only screen and (min-width: 59em) {
+
+.img-flex {
+  width: 40%;
+}
+
+.logo {
+
+  margin-top: -3%;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+.img-flex {
+  width: 39%;
+}
+
+.logo {
+
+  margin-top: -4.5%;
+}
+
+.bar {
+  padding-bottom: 17%;
+}
+
+}
+
+@media only screen and (min-width: 64em) {
+
+.logo {
+
+  margin-top: -5.5%;
+}
+
+.bar {
+  padding-bottom: 16%;
+}
+
+ul {
+  margin-left: 66%;
+}
+
 }
 
 
