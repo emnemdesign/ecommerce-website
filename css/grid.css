@@ -37,8 +37,8 @@
 }
 
 	.info {
-		margin-top: -74%;
-		margin-left: 50%;
+		margin-top: -4%;
+		margin-left: -7%;
 		padding-left:10%;
 		padding-bottom: 26%;
 }
@@ -46,49 +46,51 @@
 @media only screen and (min-width: 46em) {
 
 	.info {
-		margin-top: -74%;
+		margin-top: -73%;
+		margin-left: 51%;
+		padding-left: 3%;
 }
 }
 
 @media only screen and (min-width: 47em) {
 
 	.info {
-		margin-top: -73%;
+		margin-top: -72%;
 }
 }
 
 @media only screen and (min-width: 48em) {
 
 	.info {
-		margin-top: -70%;
+		margin-top: -69%;
 }
 }
 
 @media only screen and (min-width: 52em) {
 
 	.info {
-		margin-top: -67%;
+		margin-top: -64%;
 }
 }
 
 @media only screen and (min-width: 56em) {
 
 	.info {
-		margin-top: -65%;
+		margin-top: -63%;
 }
 }
 
 @media only screen and (min-width: 57.5em) {
 
 	.info {
-		margin-top: -63%;
+		margin-top: -62%;
 }
 }
 
 @media only screen and (min-width: 60em) {
 
 	.info {
-		margin-top: -62%;
+		margin-top: -61%;
 }
 }
 
