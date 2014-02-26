@@ -22,13 +22,6 @@ display: block;
   background-color: #000;
 }
 
-p {
-  text-align: center;
-  font-size: 0.65em;
-  color: #fff;
-  margin: 0;
-}
-
 .nav-btm li {
 
 	display: inline-block;
@@ -52,6 +45,10 @@ p {
 
 .copyright {
 	margin-bottom: 1%;
+	text-align: center;
+  font-size: 0.65em;
+  color: #fff;
+  margin: 0;
 }
 
 .icons {
@@ -82,19 +79,19 @@ p {
 }
 
 .nav {
-	padding-bottom: 7%;
+	padding-bottom: 11%;
 }
 }
 
 @media only screen and (min-width: 43em) {
 	.nav {
-	padding-bottom: 6%;
+	padding-bottom: 9%;
 }
 }
 
 @media only screen and (min-width: 50em) {
 	.nav {
-	padding-bottom: 5%;
+	padding-bottom: 7%;
 }
 }
 
