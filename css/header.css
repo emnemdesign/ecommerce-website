@@ -157,6 +157,12 @@ background-color: #000;
 }
 }
 
+@media only screen and (min-width: 50em) {
+.bar {
+  margin-top: 0;
+}
+}
+
 @media only screen and (min-width: 34em) {
 
   .img-flex {
