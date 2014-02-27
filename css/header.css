@@ -3,7 +3,17 @@
 .bar {
 
   background-color: #000000;
+  margin-top: 0%;
 }
+
+@media only screen and (min-width: 48em) {
+
+.bar {
+  margin-top:16%;
+}
+}
+
+
 
 .nav-btn {
 
