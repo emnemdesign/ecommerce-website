@@ -142,13 +142,25 @@ background-color: #000;
 
   #tfheader {
 
-      margin-bottom: -5%;
+      margin-bottom: -6%;
 }
 }
 
 .img-flex {
   display: block;
   width: 95%;
+}
+
+@media only screen and (min-width: 48em) {
+.bar {
+  margin-top: 16%;
+}
+}
+
+@media only screen and (min-width: 50em) {
+.bar {
+  margin-top: 16%;
+}
 }
 
 @media only screen and (min-width: 34em) {
