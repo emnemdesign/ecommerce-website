@@ -15,7 +15,7 @@ ul {
 display: block;
 }
 
-.nav {
+.nav-btm {
 
 	padding: 0.5em 0;
 
@@ -71,37 +71,37 @@ display: block;
 
 }
 
-.nav {
+.nav-btm {
 	padding-bottom: 11%;
 }
 }
 
 @media only screen and (min-width: 43em) {
-	.nav {
+	.nav-btm {
 	padding-bottom: 9%;
 }
 }
 
 @media only screen and (min-width: 50em) {
-	.nav {
+	.nav-btm {
 	padding-bottom: 7%;
 }
 }
 
 @media only screen and (min-width: 59em) {
-	.nav {
+	.nav-btm {
 	padding-bottom: 4.5%;
 }
 }
 
 @media only screen and (min-width: 68em) {
-	.nav {
+	.nav-btm {
 	padding-bottom: 4.25%;
 }
 }
 
 @media only screen and (min-width: 81em) {
-	.nav {
+	.nav-btm {
 	padding-bottom: 4%;
 }
 }
