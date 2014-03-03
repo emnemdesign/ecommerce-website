@@ -78,7 +78,7 @@ display: block;
 
 @media only screen and (min-width: 43em) {
 	.nav-btm {
-	padding-bottom: 9%;
+	padding-bottom: 10%;
 }
 }
 
@@ -90,19 +90,19 @@ display: block;
 
 @media only screen and (min-width: 59em) {
 	.nav-btm {
-	padding-bottom: 4.5%;
+	padding-bottom: 8%;
 }
 }
 
 @media only screen and (min-width: 68em) {
 	.nav-btm {
-	padding-bottom: 4.25%;
+	padding-bottom: 7.5%;
 }
 }
 
 @media only screen and (min-width: 81em) {
 	.nav-btm {
-	padding-bottom: 4%;
+	padding-bottom: 7%;
 }
 }
 
