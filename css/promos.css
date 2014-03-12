@@ -1,9 +1,5 @@
 .promo-small {
 	background-color: #ccc;
 	border-radius: 10px;
+	text-align: center;
 }
-
-html {
-	margin-left: 5%;
-}
-
