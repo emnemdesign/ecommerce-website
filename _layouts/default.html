@@ -33,21 +33,10 @@
 
   <header>
 
-{% if page.showbanner %}
-<div class="banner">
-  <h2>{{page.bannertext}}</h2>
-</div>
-{% endif %}
-
     <div class="bar unit-s-1 unit-m-1 unit-l-1">
   <img class="logo img-flex" src="{{site.baseurl}}/img/ori.svg" alt="logo">
     <a href="#nav" class="nav-btn" data-state="inactive">MENU</a>
-
-
-
-
-
-    </div>
+</div>
 
     <nav class="nav nav-top" data-state="collapsed">
 
@@ -60,6 +49,11 @@
 
     </nav>
 
+{% if page.showbanner %}
+<div class="banner">
+  <h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
   </header>
 
 
