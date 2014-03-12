@@ -19,6 +19,7 @@
   <link href="{{site.baseurl}}/css/product-list.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/product-details.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/forms.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/promos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -63,10 +64,10 @@
 
     <nav class="nav-btm">
       <ul>
-        <li><a href="{{site.baseurl}}/">HOME</a></li>
-        <li><a href="{{site.baseurl}}/about/">ABOUT</a></li>
-        <li><a href="{{site.baseurl}}/signup/">SIGN UP</a></li>
-        <li><a href="{{site.baseurl}}/login/">LOGIN</a></li>
+        <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">HOME</a></li>
+        <li><a class="{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">ABOUT</a></li>
+        <li><a class="{% if page.url == '/sign up/' %}current{% endif %}"href="{{site.baseurl}}/signup/">SIGN UP</a></li>
+        <li><a class="{% if page.url == '/login/' %}current{% endif %}"href="{{site.baseurl}}/login/">LOGIN</a></li>
         <li><a class="icons" href=""><img src="{{site.baseurl}}/icons/twitter.svg" alt="twitter logo"></a></li>
         <li><a class="icons" href=""><img src="{{site.baseurl}}/icons/facebook.svg" alt="facebook logo"></a></li>
         <li><a class="icons" href=""><img src="{{site.baseurl}}/icons/pinterest.svg" alt="pinterest logo"></a></li>
