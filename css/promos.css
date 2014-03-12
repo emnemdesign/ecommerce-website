@@ -1,5 +1,11 @@
 .promo-small {
-	background-color: #ccc;
 	border-radius: 10px;
 	text-align: center;
 }
+
+.promo-large {
+	text-align: center;
+	background-color: #cc0099;
+}
+
+
