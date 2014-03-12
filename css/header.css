@@ -79,6 +79,17 @@ ul li:before {
   display: none;
 }
 
+.banner {
+  background: #6e9d1b url("../img/banner.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 5em 1em 1em;
+  text-align: center;
+}
+
+.banner h2 {
+  color: #000;
+}
+
 @media only screen and (min-width: 30em) {
 
   #search-field {
