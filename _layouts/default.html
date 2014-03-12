@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Origamist</title>
+  <title>{{page.title}} · Origamist</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -32,6 +32,12 @@
 
 
   <header>
+
+{% if page.showbanner %}
+<div class="banner">
+  <h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
 
     <div class="bar unit-s-1 unit-m-1 unit-l-1">
   <img class="logo img-flex" src="{{site.baseurl}}/img/ori.svg" alt="logo">
