@@ -23,6 +23,15 @@ html {
   background-position: center;
 }
 
+@media only screen and (min-width: 100em) {
+
+  html {
+  background-image: url("../img/washi_two.png")
+}
+
+
+}
+
 .nav {
 
 	line-height: 3em;
