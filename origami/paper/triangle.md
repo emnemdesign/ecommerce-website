@@ -1,14 +1,10 @@
 ---
-layout: origami
+layout: paper
 category: paper
 name: Triangle Paper
 img: paper/triangle.jpg
-folder: paper
+price: $2.00
+sheets: 100 sheets
+type: plain
 ---
 
- []().
-
-<!--##h2-->
-
-
-![]()
