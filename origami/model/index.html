@@ -1,0 +1,26 @@
+---
+layout: nav
+title: Origami
+---
+<h1>Origami</h1>
+
+<ul>
+
+	{% for ori in site.pages %}
+
+		{% if ori.category == 'model'%}
+
+		<li>
+			<a href="{{site.baseurl}}{{ori.url}}">
+				<img class="img-flex"src="{{site.baseurl}}/img/{{ori.img}}" alt="photo of {{page.name}}">
+
+			{{ori.name}}
+
+		</li>
+
+		{% endif %}
+
+	{% endfor %}
+
+</ul>
+
