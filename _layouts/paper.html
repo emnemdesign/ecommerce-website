@@ -1,19 +1,23 @@
 ---
-layout: default
+layout: nav
 ---
 <h1>{{page.name}}</h1>
 <img class="img-flex"src="{{site.baseurl}}/img/{{page.img}}" alt="">
 <ul>
-				<li>{{page.type}}{{page.sheets}}</li>
-				<li> Available colours</li>
-					<ul>
-						<li>Pink</li>
-						<li>Yellow</li>
-						<li>Blue</li>
-						<li>Green</li>
-						<li>Orange</li>
-					</ul>
-				<li>{{page.price}}</li>
+				<li>{{page.type}} {{page.sheets}}</li>
+					<ul class="list-group">
+				    <li class="list-group-item list-group-item-inline">
+				      <img src="http://placehold.it/32x32/ff3333" alt="">
+				    </li>
+				    <li class="list-group-item list-group-item-inline">
+				      <img src="http://placehold.it/32x32/ffcc00" alt="">
+				    </li>
+				    <li class="list-group-item list-group-item-inline">
+				      <img src="http://placehold.it/32x32/cc6633" alt="">
+   					 </li>
+  				</ul>
+				<li class="yotta">{{page.price}}</li>
 </ul>
 
 <a class="btn micro" href="#">Add to cart</a>
+<a class="wishlist" href="#">Add to wishlist</a>
