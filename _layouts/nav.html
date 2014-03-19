@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
+<strong>Origami</strong>
 <nav>
 	<ul>
-		<li><a class="{% if page.url contains 'paper' %}" href="{{site.baseurl}}/paper/">Paper</a></li>
-		<li><a class="{% if page.url contains 'model' %}" href="{{site.baseurl}}/model/">Model</a></li>
+		<li><a class="{% if page.url contains 'paper' %}current{% endif %}" href="{{site.baseurl}}/origami/paper/">Paper</a></li>
+		<li><a class="{% if page.url contains 'model' %}current{% endif %}" href="{{site.baseurl}}/origami/model/">Model</a></li>
 	</ul>
 </nav>
 
