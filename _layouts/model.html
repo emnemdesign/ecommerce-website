@@ -2,10 +2,10 @@
 layout: nav
 ---
 <h1>{{page.name}}</h1>
-<img class="img-flex"src="{{site.baseurl}}/img/{{page.img}}" alt="">
+<img class="img-flex unit-m-1-2 unit-l-1-2"src="{{site.baseurl}}/img/{{page.img}}" alt="">
 <ul>
-				<li>{{page.height}}</li>
-						<ul class="list-group">
+					 <h2 class="yotta">{{page.price}}</h2>
+					 <ul class="list-group">
 						    <li class="list-group-item list-group-item-inline">
 						      <img src="http://placehold.it/32x32/ff3333" alt="">
 						    </li>
@@ -16,9 +16,9 @@ layout: nav
 						      <img src="http://placehold.it/32x32/cc6633" alt="">
 						    </li>
 					  </ul>
-					 <li class="yotta">{{page.price}}</li>
+					  <li>{{page.height}}</li>
 </ul>
 
 
-<a class="btn micro" href="#">Add to cart</a>
-<a class="wishlist" href="#">Add to wishlist</a>
+<a class="btn mega brand-family" href="{{site.baseurl}}/cart/">Buy Now!</a>
+
