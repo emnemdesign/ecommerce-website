@@ -80,6 +80,7 @@ ul li:before {
 .nav a:active {
 
   background-color: #ffcc00;
+  color: #fff;
 }
 
 .nav-top[data-state="expanded"] {
