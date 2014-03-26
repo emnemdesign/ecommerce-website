@@ -17,24 +17,60 @@ html {
 
 
 .btn {
-  margin-left: 75%;
-  padding: 10%;
+  margin-left: 14rem;
 }
 
 .wishlist {
   margin-left: 68%;
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 31em) {
 
 .btn {
-	margin-left: 68%;
+	margin-left: 18rem;
 }
+}
+
+@media only screen and (min-width: 45em) {
 
 .wishlist {
 	margin-left: 63%;
 }
 
+}
+@media only screen and (min-width: 49em) {
+
+.btn {
+	margin-left: 13rem;
+}
+}
+
+@media only screen and (min-width: 56em) {
+
+.btn {
+	margin-left: 15rem;
+}
+}
+
+@media only screen and (min-width: 59em) {
+
+.btn {
+	margin-left: 17rem;
+}
+}
+
+@media only screen and (min-width: 63em) {
+
+.btn {
+	margin-left: 18rem;
+}
+}
+
+@media only screen and (min-width: 70em) {
+
+.btn {
+	margin-left: 22rem;
+}
 }
 
 @media only screen and (min-width: 79em) {
@@ -49,7 +85,7 @@ html {
 @media only screen and (min-width: 80em) {
 
 .btn {
-	margin-left: 70%;
+ margin-left: 25rem;
 }
 
 .wishlist {
@@ -57,4 +93,14 @@ html {
 }
 
 }
+
+
+@media only screen and (min-width: 87em) {
+
+.btn {
+	margin-left: 29rem;
+}
+}
+
+
 
