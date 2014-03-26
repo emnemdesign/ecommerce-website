@@ -4,22 +4,8 @@ title: Shopping Cart
 ---
 <h1>Cart</h1>
 
-{% for ori in site.pages %}
+<a href=""><img class="img-flex unit-m-1-2 unit-l-1-2"src="{{site.baseurl}}/img/paper/square.jpg" alt="">Square Paper</a>
 
-		{% if ori.category == 'paper'%}
-
-		<li>
-
-				<a href="{{site.baseurl}}{{ori.url}}">
-				<img class="img-flex unit-m-1-2 unit-l-1-2"src="{{site.baseurl}}/img/{{ori.img}}" alt="photo of {{page.name}}">
-
-
-			{{ori.name}}
-
-		</li>
-
-		{% endif %}
-
-	{% endfor %}
+<a href=""><img class="img-flex unit-m-1-2 unit-l-1-2"src="{{site.baseurl}}/img/paper/foil.jpg" alt="">Foil Paper</a>
 
 <a class="btn mega brand-family" href="{{site.baseurl}}/thankyou/">Check out</a>
