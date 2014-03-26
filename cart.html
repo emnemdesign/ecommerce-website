@@ -1,0 +1,25 @@
+---
+layout: default
+title: Shopping Cart
+---
+<h1>Cart</h1>
+
+{% for ori in site.pages %}
+
+		{% if ori.category == 'paper'%}
+
+		<li>
+
+				<a href="{{site.baseurl}}{{ori.url}}">
+				<img class="img-flex unit-m-1-2 unit-l-1-2"src="{{site.baseurl}}/img/{{ori.img}}" alt="photo of {{page.name}}">
+
+
+			{{ori.name}}
+
+		</li>
+
+		{% endif %}
+
+	{% endfor %}
+
+<a class="btn mega brand-family" href="{{site.baseurl}}/thankyou/">Check out</a>
