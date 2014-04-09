@@ -15,10 +15,24 @@ ul {
 display: block;
 }
 
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+
+  background-color: #ffcc00;
+  color: #fff;
+}
+
+.footer ul {
+
+	line-height: 1.5em;
+}
+
 .nav-btm {
 
 	padding: 0.5em 0;
-
+	margin-left: -1rem;
+	margin-right: -1rem;
   background-color: #000;
 }
 
