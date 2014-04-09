@@ -26,20 +26,20 @@
 
   <div id="tfheader">
     <form id="search-field" method="get" action="{{site.baseurl}}/search/">
-            <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="SEARCH" class="tfbutton">
+            <input type="text" class="tftextinput" name="q" size="21" maxlength="120" title="search bar"><input type="submit" value="SEARCH" class="tfbutton">
     </form>
   <div class="tfclear"></div>
   </div>
 
 
-  <header>
+  <header role="banner">
 
     <div class="bar unit-s-1 unit-m-1 unit-l-1">
-  <img class="logo logo-flex" src="{{site.baseurl}}/img/ori.svg" alt="logo">
+  <img class="logo logo-flex" src="{{site.baseurl}}/img/ori.svg" alt="Origamists">
     <a href="#nav" class="nav-btn" data-state="inactive">MENU</a>
 </div>
 
-    <nav class="nav nav-top" data-state="collapsed">
+    <nav class="nav nav-top" data-state="collapsed" role="navigation">
 
     <ul>
         <li><a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/">HOME</a></li>
@@ -52,7 +52,7 @@
 
 {% if page.showbanner %}
 <div class="banner">
-  <h2>{{page.bannertext}}</h2>
+  <em class="zetta">{{page.bannertext}}</em>
 </div>
 {% endif %}
   </header>
@@ -60,9 +60,9 @@
 
 {{content}}
 
-<footer>
+<footer class="footer">
 
-    <nav class="nav-btm">
+    <nav class="nav-btm" id="nav">
       <ul>
         <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">HOME</a></li>
         <li><a class="{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">ABOUT</a></li>
@@ -72,7 +72,7 @@
         <li><a class="icons" href=""><img src="{{site.baseurl}}/icons/facebook.svg" alt="facebook logo"></a></li>
         <li><a class="icons" href=""><img src="{{site.baseurl}}/icons/pinterest.svg" alt="pinterest logo"></a></li>
       </ul>
-      <p class="copyright">©2013 Origamist. All Rights Reserved.</p>
+      <p class="copyright" role="contentinfo">©2013 Origamist. All Rights Reserved.</p>
 
 
 
