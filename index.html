@@ -4,17 +4,19 @@ title: Origami
 showbanner: yes
 bannertext: Sale
 ---
-<h1>Origamist</h1>
-<p>For all your pretty paper needs!</p>
+<main role="main">
+	<h1>Origamist</h1>
+	<p>For all your pretty paper needs!</p>
 
-<div class="grid">
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-	{% include promo-small.html title="Star Paper" desc="Blue strips 1/2in x 8.5in" images="paper/star.jpg" %}
+	<div class="grid">
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+		<a class="block-link">{% include promo-small.html title="Star Paper" desc="Blue strips 1/2in x 8.5in" images="paper/star.jpg" alt="star paper"%}</a>
+		</div>
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+		{% include promo-small.html title="Crane Paper" desc="Colourful 4in paper" images="paper/square.jpg" alt="square paper"%}
+		</div>
+		<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
+		{% include promo-small.html title="Triangle paper" desc="Colourful 5cmx7cm paper " images="paper/triangle.jpg" alt="triangle paper"%}
+		</div>
 	</div>
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-	{% include promo-small.html title="Crane Paper" desc="Colourful 4in paper" images="paper/square.jpg" %}
-	</div>
-	<div class="gutter unit unit-s-1 unit-m-1-3 unit-l-1-3">
-	{% include promo-small.html title="Triangle paper" desc="Colourful 5cmx7cm paper " images="paper/triangle.jpg" %}
-	</div>
-</div>
+</main>
