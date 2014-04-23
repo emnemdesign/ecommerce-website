@@ -3,7 +3,14 @@
 .bar {
 
   background-color: #000000;
+  margin-top: -2rem;
+  padding-top: 1rem;
+  margin-right: 2rem;
+  margin-left: -1rem;
+}
 
+#search-field {
+margin-top: 2rem;
 }
 
 .nav-btn {
@@ -40,6 +47,11 @@ html {
 
 }
 
+.nav-top {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 .nav-top li {
   padding-left: 0.5em;
 }
@@ -47,7 +59,7 @@ html {
 .nav-top ul {
 
   padding: 0;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 nav .selected {
@@ -119,6 +131,9 @@ ul li:before {
 
 #tfheader {
 background-color: #000;
+margin-top: -2rem;
+margin-right: -5rem;
+margin-left: -5rem;
 }
 
 @media only screen and (min-width: 34em) {
@@ -126,8 +141,9 @@ background-color: #000;
   #tfheader {
 
       float: right;
-      margin-right: 5%;
-      margin-bottom: -8%;
+      margin-top: 0;
+      margin-right: 0;
+      margin-left: 0;
 
 }
 
@@ -289,12 +305,22 @@ ul {
 }
 
 .bar {
-padding-bottom: 20%;
+  padding-bottom: 20%;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 
 .nav-top {
   padding-left: 66%;
 }
+}
+
+@media only screen and (min-width: 50em) {
+
+.bar {
+  width: 103%;
+}
+
 }
 
 @media only screen and (min-width: 51em) {
