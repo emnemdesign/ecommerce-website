@@ -2,7 +2,6 @@
 layout: nav
 title: Origami
 ---
-<main role="main">
 <h1>Origami</h1>
 
 <ul>
@@ -12,11 +11,11 @@ title: Origami
 		{% if ori.category == 'model'%}
 
 		<li>
-			<a class="block-link" href="{{site.baseurl}}{{ori.url}}">
+			<a href="{{site.baseurl}}{{ori.url}}">
 				<img class="img-flex unit-m-1-2 unit-l-1-2"src="{{site.baseurl}}/img/{{ori.img}}" alt="photo of {{page.name}}">
 
 			{{ori.name}}
-		</a>
+
 		</li>
 
 		{% endif %}
@@ -31,11 +30,11 @@ title: Origami
 		{% if ori.category == 'paper'%}
 
 		<li>
-			<a class="block-link" href="{{site.baseurl}}{{ori.url}}">
+			<a href="{{site.baseurl}}{{ori.url}}">
 				<img class="img-flex unit-m-1-2 unit-l-1-2"src="{{site.baseurl}}/img/{{ori.img}}" alt="photo of {{page.name}}">
 
 			{{ori.name}}
-			</a>
+
 		</li>
 
 		{% endif %}
@@ -43,5 +42,4 @@ title: Origami
 	{% endfor %}
 
 </ul>
-</main>
 
